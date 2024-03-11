@@ -13,7 +13,7 @@ int main() {
     string str;
     getline(cin,str);
     string inversa;
-    for(int i = str.size(); i >=0; i--)
+    for(int i = str.size()-1; i >=0; i--)
     {
         inversa += str[i];
 
